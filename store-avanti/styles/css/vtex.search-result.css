@@ -1,0 +1,163 @@
+.galleryLayoutOptionButton {
+  background-color: #F0F0F0;
+  color: #3F3F40;
+  padding: 0.375rem 0.75rem 0.375rem 0.75rem;
+}
+
+.galleryLayoutOptionButton--selected {
+  background-color: #3F3F40;
+  color: #FFFFFF;
+}
+
+.galleryLayoutSwitcher {
+  border-radius: 4px 4px 4px 4px;
+  justify-content: center;
+  overflow: hidden;
+  width: auto !important;
+  align-self: center
+}
+
+.galleryItem--list {
+  border-bottom: 1px #E7E9EE solid;
+}
+
+/*DEPARTAMENTOS*/
+.galleryTitle--layout{
+  color: #441AFA;
+}
+.filterMessage{
+  font-size: 14px;
+  font-weight: bold;
+  color: #25282A;
+}
+.filterTitle{
+  font-size: 12px;
+}
+.filterItem{
+  font-size: 12px;
+}
+.filterTemplateOverflow :global(.vtex-slider__selector), .filterTemplateOverflow :global(.vtex-slider__base-internal){
+  background-color: #441AFA;
+
+}
+@media screen and (min-width: 1024px) {
+  .banner-mobile{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner-desktop{
+    display: none;
+  }
+}
+.filterItem--selected :global(.vtex-checkbox__box){
+  background:#441AFA ;
+}
+/*SEARCH NOT FOUND*/
+.searchNotFoundInfo{
+  color:#441AFA;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.searchNotFoundWhatDoIDo{
+  color: #2E2E2E;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.searchNotFoundWhatToDoDots{
+ color: #B1B3B3;
+ font-size: 12px;
+}
+
+.searchNotFoundOops{
+  font-size: 0px;
+}
+.searchNotFoundOops::after{
+  content: 'OPS!';
+  font-size: 56px;
+  color:#EEEEEE;
+}
+.title-departaments{
+  display: none;
+}
+/*FILTRO MOBILE   */
+.filterIcon{
+  display: none;
+}
+.filterPopupTitle--celu-filtro{
+  color: #131618;
+  letter-spacing: 1.4px;
+  font-weight: bold;
+
+
+}
+.filterPopupTitle--celu{
+  font-size: 0px;
+  text-transform: none;
+}
+
+.filterPopupTitle--celu::after{
+  content: 'Ordernar por:';
+  text-align: left;
+  letter-spacing: 0px;
+  color: #25282A;
+  font-size: 14px;
+  margin-right: 20px;
+
+}
+.filterButtonsBox{
+  margin-bottom: 100px;
+}
+.filterBreadcrumbsText{
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1.6px;
+  color: #25282A;
+}
+
+.filterBreadcrumbsItemName{
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1.4px;
+  color: #441AFA;
+}
+.accordionFilterItemTitle{
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1.4px;
+}
+.filterAccordionItemBox :global(.vtex-checkbox__label){
+  font-size: 16px;
+  color:#707070 ;
+
+}
+.filterAccordionItemBox :global(.vtex__icon-check){
+  background-color: #441AFA;
+}
+.filterBreadcrumbsItem :global(.vtex-search-result-3-x-caretIcon){
+color: #25282A;
+
+}
+.filterApplyButtonWrapper :global(.vtex-button__label){
+  width: 145px;
+  height: 48px;
+  background: #441AFA;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2.4px;
+}
+.filterClearButtonWrapper :global(.vtex-button__label){
+  background: #FFFFFF;
+  border: 1px solid #E9E9E9;
+  color: #25282A;
+  font-size: 12px;
+  font-weight: bold;
+  width: 145px;
+  height: 48px;
+  letter-spacing: 2.4px;
+
+}

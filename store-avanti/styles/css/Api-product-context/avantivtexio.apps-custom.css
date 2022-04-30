@@ -1,0 +1,36 @@
+
+.dad{
+ margin-right: 40px;
+}
+.textUno{
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #441afa;
+  border-radius: 0px;
+  padding: 5px 10px;
+  font-size: 11px;
+  margin-bottom: 5px;
+}
+.textDos{
+  background: black;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 0px;
+  padding: 5px 10px;
+  font-size: 11px;
+  margin-bottom: 5px;
+
+}
+.textTres{
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #441afa;
+  border-radius: 0px;
+  padding: 5px 10px;
+  font-size: 11px;
+  margin-bottom: 5px;
+}
+

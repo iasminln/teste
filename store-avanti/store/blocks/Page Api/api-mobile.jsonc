@@ -1,0 +1,81 @@
+{
+  "responsive-layout.phone#api":{
+    "children":[
+      "flex-layout.row#api-mobile",
+      "flex-layout.row#api-dos-mobile",
+      "flex-layout.row#espaciadora-mobile",
+      "flex-layout.row#div-search-mobile",
+      "flex-layout.row#espaciadora2-mobile",
+      "flex-layout.row#div-skull-mobile"
+    ]
+  },
+  "flex-layout.row#api-mobile":{
+    "props":{
+      "blockClass":"div-api-mobile"
+    },
+    "children":[
+      "api-page"
+    ]
+  },
+
+  "flex-layout.row#api-dos-mobile":{
+    "props":{
+      "blockClass":"div-api-dos-mobile"
+    },
+    "children":[
+       "api-master"
+    ]
+  },
+  "flex-layout.row#espaciadora-mobile":{
+    "props":{
+      "blockClass":"espaciadora-mobile"
+    }
+  },
+  "flex-layout.row#div-search-mobile":{
+    "props":{
+      "blockClass":"search-api-mobile"
+    },
+    "children":[
+      "search-api-master"
+    ]
+  },
+
+  "flex-layout.row#espaciadora2-mobile":{
+    "props":{
+      "blockClass":"espaciadora2-mobile"
+    },
+    "children":[
+      "flex-layout.col#avanti-img-mobile"
+
+    ]
+  },
+  "flex-layout.col#avanti-img-mobile":{
+    "props":{
+      "blockClass":"avanti-img-mobile"
+    },
+    "children":[
+      "image#1-mobile",
+      "image#2-mobile"
+    ]
+  },
+  "image#1-mobile":{
+    "props":{
+      "src":"assets/avanti-img/1.png"
+    }
+  },
+  "image#2-mobile":{
+    "props":{
+      "src":"assets/avanti-img/2.png"
+    }
+  },
+  "flex-layout.row#div-skull-mobile":{
+    "props":{
+      "blockClass":"div-skull-mobile"
+    },
+    "children":[
+      "search-product"
+    ]
+  }
+
+
+}

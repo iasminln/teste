@@ -1,0 +1,101 @@
+@media (min-width: 992px) {
+.form2{
+  display: flex;
+
+}
+.input2{
+  width: 200px;
+  height: 30px;
+  margin-left: 25px;
+  border-radius: 10px;
+  margin-top: 12px;
+  margin-right: 10px;
+}
+.divDos{
+  margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.divDosParrafo{
+  color:#441AFA;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+.divDosImg{
+  max-width: 300px;
+  max-height: 350px;
+  margin-bottom: 20px;
+}
+
+.spanBestPrice{
+  color: #441AFA;
+  font-size: 20px;
+  font-weight: bold;
+}
+.spanPrice{
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+}
+
+@media (max-width: 991.98px){
+  .tituloSearch{
+    font-size: 50px;
+    margin-left: 20px;
+  }
+  .form2{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .input2{
+    width: 200px;
+    height: 30px;
+    margin-left: 90px;
+    border-radius: 10px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+
+  }
+  .parrafo2{
+    margin-left: 60px;
+    font-size: 25px;
+  }
+  .divDos{
+    margin-top: 25px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 50px;
+  }
+
+  .divDosParrafo{
+    color:#441AFA;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+  }
+  .divDosImg{
+    max-width: 300px;
+    max-height: 350px;
+    margin-bottom: 20px;
+  }
+
+  .spanBestPrice{
+    color: #441AFA;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .spanPrice{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+

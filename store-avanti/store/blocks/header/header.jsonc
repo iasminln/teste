@@ -1,0 +1,311 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#1-desktop",
+      "flex-layout.row#2-desktop",
+
+      "sticky-layout#4-desktop",
+      "flex-layout.row#Barra"
+    ]
+  },
+
+  "flex-layout.row#1-desktop": {
+    "children": ["telemarketing"],
+    "props": {
+      "blockClass":"grid1252",
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.row#2-desktop": {
+    "children": ["flex-layout.col#frete",
+    "flex-layout.col#frete2"],
+    "props": {
+      "blockClass":["freterow","grid1252"],
+      "fullWidth": "true"
+    }
+  },
+  "flex-layout.col#frete":{
+    "props":{
+      "blockClass":"frete"
+    },
+    "children":[
+      "rich-text#frete"
+    ]
+  },
+  "rich-text#frete":{
+    "props":{
+      "blockClass":"textofrete",
+      "text":"Frete Gratis acima de R$299,00 para Região Sudeste."
+    }
+  },
+  "flex-layout.col#frete2":{
+    "props":{
+      "blockClass":"frete2"
+    },
+    "children":[
+      "rich-text#frete2"
+    ]
+  },
+  "rich-text#frete2":{
+    "props":{
+      "blockClass":"textofrete2",
+      "text": "SEJA UN REPRESENTANTE | SEJA UM REVENDEDOR "
+    }
+  },
+
+
+  "sticky-layout#4-desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#4-desktop"]
+  },
+  "flex-layout.row#Barra":{
+    "props":{
+      "blockClass":["Barra","grid1252"]
+    },
+    "children":[
+      "flex-layout.col#category-menu"
+    ]
+  },
+  "flex-layout.row#4-desktop": {
+    "props": {
+      "blockClass": ["main-header","grid1252"]
+
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#bar",
+
+      "flex-layout.col#header2"
+
+
+    ]
+  },
+  "flex-layout.col#bar":{
+    "props":{
+      "blockClass":["bar"],
+      "width":"50%"
+
+    },
+    "children":[
+      "search-bar"
+    ]
+  },
+  "flex-layout.col#header2":{
+    "props":{
+      "blockClass":"header2",
+      "width":"30%"
+    },
+    "children":[
+      "link.product#product-page",
+      "login",
+      "minicart.v2"
+    ]
+  },
+
+  "login": {
+    "props": {
+      "blockClass":"login",
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "iconLabel":false,
+      "showIconProfile":true,
+      "hideIconLabel":true
+    }
+  },
+  "link.product#product-page": {
+    "props": {
+      "blockClass":"Atendimento",
+      "href": "/{slug}/p",
+      "label": "Atendimento ao Cliente"
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "blockClass":"logito-avanti",
+      "verticalAlign": "middle",
+      "width":"20%"
+    },
+    "children": ["logo#desktop"]
+  },
+  "flex-layout.col#category-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["vtex.menu@2.x:menu#category-menu"]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/img/logo-avanti-color.png",
+      "width": "200"
+    }
+  },
+  "header-layout.mobile": {
+    "children": [
+      "flex-layout.row#2-desktop",
+      "sticky-layout#1-mobile",
+      "flex-layout.row#busqueda"]
+  },
+  "flex-layout.row#busqueda":{
+    "props":{
+      "blockClass":"busqueda"
+    },
+    "children":[
+      "search-bar#phone"
+    ]
+  },
+  "search-bar#phone":{
+    "props":{
+      "blockClass":"barra-phone"
+    }
+  },
+  "sticky-layout#1-mobile": {
+    "children": ["flex-layout.row#1-mobile"]
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": ["menu#drawer"]
+  },
+
+  "menu#drawer": {
+    "children": [
+      "menu-item#category-apparel",
+      "menu-item#novidades",
+      "menu-item#outlet",
+      "menu-item#dpto-down",
+      "menu-item#category-apparel-departamento2",
+      "menu-item#category-apparel-departamento3",
+      "menu-item#category-apparel-departamento4",
+      "menu-item#category-apparel-departamento5",
+      "menu-item#conta",
+      "menu-item#atendimento",
+      "menu-item#loja",
+      "menu-item#representante",
+      "menu-item#revendedor"
+
+    ],
+    "props": {
+      "orientation": "vertical"
+
+    }
+  },
+  "menu-item#dpto-down": {
+    "props": {
+      "blockClass": "down",
+      "id": "aside",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "aside",
+        "text": "DEPARTAMENTO 1 "
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#down-menu"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#down-menu": {
+    "props": {
+      "blockClass": "down"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#down-accordion"
+    ]
+  },
+  "vtex.menu@2.x:menu#down-accordion": {
+    "props": {
+      "blockClass": "down",
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#categoria-accordion",
+      "menu-item#categoria2",
+      "menu-item#categoria3",
+      "menu-item#categoria4",
+      "menu-item#categoria5",
+      "menu-item#categoria6"
+    ]
+  },
+  "menu-item#categoria-accordion": {
+    "props": {
+      "blockClass":"down1",
+      "id": "categoria-accordion",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Categoria 1",
+        "text": "Categoria 1"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#sub-accordion"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#sub-accordion": {
+    "props": {
+      "blockClass": "sub-accordion"
+
+    },
+    "children": [
+      "vtex.menu@2.x:menu#sub-category"
+    ]
+  },
+  "vtex.menu@2.x:menu#sub-category": {
+    "props": {
+      "blockClass": "sub-categoria",
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#sub-categoria1",
+      "menu-item#sub-categoria2",
+      "menu-item#sub-categoria3",
+      "menu-item#sub-categoria4",
+      "menu-item#sub-categoria5",
+      "menu-item#sub-categoria6"
+    ]
+  },
+
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/img/logo-avanti-color.png",
+      "width": "176"
+    }
+  }
+}

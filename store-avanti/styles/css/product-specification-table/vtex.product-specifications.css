@@ -1,0 +1,13 @@
+.groupName {
+  font-size: 1.25rem;
+}
+
+.specificationName {
+  font-weight: bold;
+}
+.specificationValue--specvalue{
+  font-size: 14px;
+}
+.specificationName--specname{
+  font-size: 14px;
+}

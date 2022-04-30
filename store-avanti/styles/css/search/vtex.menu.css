@@ -1,0 +1,163 @@
+
+.submenuWrapper{
+  position: absolute;
+  width: 300px;
+  height: 300px;
+ left: -20px;
+ border: 1px solid #EEEEEE;
+
+}
+.submenuWrapper--categoria{
+  position: absolute;
+
+  top: -41px;
+  left: 275px;
+  width: 300px;
+  height: 300px;
+
+}
+.submenuWrapper--sub-categoria{
+  position: absolute;
+  top: -85px;
+  left: 185px;
+  width: 300px;
+  height: 300px;
+
+}
+
+.menuItem--isClosed{
+  font-size: 14px;
+}
+.menuItem--all-departamentos{
+  background:#441AFA;
+  background-image: url('assets/img/barritablanca.png');
+  background-position: 10% 50%;
+  background-repeat: no-repeat;
+  width: 300px;
+  margin-right: 88px;
+
+
+}
+
+.styledLinkContent--all-departamentos{
+  color: white;
+
+  justify-content: center;
+
+
+}
+.styledLinkContent--outlet{
+  color: #441AFA;
+
+}
+
+
+
+.menuItem--dpto1:hover, .menuItem--categoria-one:hover, .menuItem--sub-one:hover{
+  background: #EEEEEE;
+  width: 298px;
+}
+
+
+/*MENU DRAWER MOBILE*/
+.menuItem--novidades{
+  width: auto;
+  height: 40px;
+  border-bottom: 1.5px solid #eeee;
+}
+.styledLinkContent--novidades{
+  font-size: 16px;
+  font-weight: bold;
+  color: #25282A;
+  letter-spacing: 1.5px;
+
+
+}
+.menuItem--outlet{
+  width: auto;
+  height: 40px;
+  border-bottom: 1.5px solid #eeee;
+}
+.styledLinkContent--outlet{
+  color: #441AFA;
+  font-size: 16px;
+  font-weight: bold ;
+  letter-spacing: 1.5px;
+
+}
+.menuItem--dpto1{
+
+  height: 40px;
+  border-top: 1.5px solid #eeee;
+  border-bottom: 1.5px solid #eeee;
+
+}
+.styledLinkContent--dpto1{
+  font-size: 12px;
+  letter-spacing: 1.4px;
+color: #25282A;
+margin-top: 5px;
+
+}
+
+
+.menuItem--drawer-conta{
+  margin-top: 15px;
+}
+
+.styledLinkContent--drawer-conta{
+  background: #EEEEEE;
+  color: #441AFA;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.menuItem--drawer-atendimento{
+  margin-bottom: 15px;
+}
+.styledLinkContent--drawer-atendimento{
+  color: #441AFA;
+  font-weight: bold;
+  font-size: 14px;
+}
+.menuItem--drawer-dos{
+  width: auto;
+  height: 35px;
+  background: #eeee;
+  font-weight: bold;
+}
+.styledLinkContent--drawer-dos{
+  color: #25282A;
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.menuItemInnerDiv--down{
+  height: 35px;
+}
+.styledLinkContent--down{
+  font-size: 12px;
+  letter-spacing: 1.4px;
+  color: #25282A;
+  margin-top: 5px;
+}
+/*PAGINA ABOUT US*/
+/*MOBILE*/
+.menuItemInnerDiv--accordion{
+  width: 372px;
+  height: 40px;
+  border: 1px solid #E9E9E9;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 40px;
+
+}
+.styledLinkContent--accordion{
+
+
+  margin-top: 10px;
+  letter-spacing: 1.4px;
+  color: #25282A;
+  font-size: 14px;
+  font-weight: bold;
+}

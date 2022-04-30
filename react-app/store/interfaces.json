@@ -1,0 +1,28 @@
+{
+  "product-modal": {
+    "component": "Modal",
+    "composition":"children"
+  },
+  "api-page": {
+    "component": "Api",
+    "composition":"children"
+  },
+  "api-master": {
+    "component": "apiMaster",
+    "composition":"children"
+  },
+  "search-api-master": {
+    "component": "searchApi",
+    "composition":"children"
+  },
+  "search-product": {
+    "component": "search-product",
+    "composition":"children"
+  },
+  "renderEdw": {
+    "component": "product-context",
+    "composition":"children"
+  }
+}
+
+

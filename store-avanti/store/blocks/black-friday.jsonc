@@ -1,0 +1,26 @@
+{ "store.custom#black-friday":{
+  "children":[
+    "search-result-layout.customQuery"
+
+  ]
+},
+  "search-result-layout.customQuery": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        // "queryField": "brand",
+        // "mapField": "ft",
+        "queryField": "142",
+        "mapField": "productClusterIds",
+        "skusFilter": "ALL",
+        "maxItemsPerPage": 24,
+        "simulationBehavior": "skip"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+}

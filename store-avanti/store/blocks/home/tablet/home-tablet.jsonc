@@ -1,0 +1,22 @@
+{
+  "responsive-layout.tablet":{
+    "children":[
+      "list-context.image-list#demo",
+
+      "__fold__.experimentalLazyAssets",
+      "flex-layout.row#deals",
+      "rich-text#shelf-title",
+      "flex-layout.row#slider",
+      "flex-layout.row#imagen-central",
+      "flex-layout.row#new-sale",
+      "flex-layout.row#title-banner",
+      "flex-layout.row#banner1",
+      "flex-layout.row#banner2",
+      "flex-layout.row#vitrine1",
+      "flex-layout.row#vitrine-slider1",
+      "flex-layout.row#banner-sale",
+      "flex-layout.row#vitrine2",
+      "flex-layout.row#vitrine-slider2"
+    ]
+  }
+}

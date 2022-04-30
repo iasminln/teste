@@ -1,0 +1,33 @@
+.emailInputContainer--email{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.nameInputContainer--name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formSubmitContainer--submit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formSubmitContainer--submit  :global(.vtex-button){
+  background: transparent;
+  color: #441AFA;
+  border: none;
+}
+
+/*PHONE*/
+.newsletterForm--new-phone{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #EEEE;
+  background-image: url(assets/img/background-avanti.png);
+  background-position: -200% 50%;
+  background-repeat: no-repeat;
+
+}

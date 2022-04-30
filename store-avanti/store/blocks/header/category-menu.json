@@ -1,0 +1,575 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#category-apparel",
+      "menu-item#category-dpto1",
+      "menu-item#dpto2",
+      "menu-item#novidades",
+      "menu-item#outlet"
+    ]
+  },
+  "menu-item#category-apparel": {
+    "props": {
+      "blockClass": "all-departamentos",
+      "id": "menu-item-category-all-departamentos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/",
+        "noFollow": false,
+        "tagTitle": "Departamentos",
+        "text": "Todos os Departamentos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-dpto"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-dpto": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-sub"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-sub": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-apparel-departamento1",
+      "menu-item#category-apparel-departamento2",
+      "menu-item#category-apparel-departamento3",
+      "menu-item#category-apparel-departamento4",
+      "menu-item#category-apparel-departamento5",
+      "menu-item#category-apparel-departamento6"
+    ]
+  },
+  "menu-item#category-apparel-departamento1": {
+    "props": {
+      "blockClass":"dpto1",
+      "id": "menu-item-category-apparel-departamento1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Departamento1",
+        "text": "DEPARTAMENTO 1"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#categoria"
+    ]
+  },
+  "vtex.menu@2.x:submenu#categoria": {
+    "props": {
+      "blockClass": "categoria",
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#categoria"
+    ]
+  },
+  "vtex.menu@2.x:menu#categoria": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#titulo-dpto",
+      "menu-item#categoria1",
+      "menu-item#categoria2",
+      "menu-item#categoria3",
+      "menu-item#categoria4",
+      "menu-item#categoria5",
+      "menu-item#categoria6"
+    ]
+  },
+  "rich-text#titulo-dpto":{
+    "props":{
+      "blockClass":"titulito",
+      "text":"Departamento 1"
+    }
+  },
+  "menu-item#categoria1": {
+    "props": {
+      "blockClass":"categoria-one ",
+      "id": "menu-item-categoria1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Categoria 1",
+        "text": "Categoria 1"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#sub-categoria"
+    ]
+  },
+  "vtex.menu@2.x:submenu#sub-categoria": {
+    "props": {
+      "blockClass": "sub-categoria",
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#sub-categoria"
+    ]
+  },
+  "vtex.menu@2.x:menu#sub-categoria": {
+    "props": {
+      "blockClass": "sub-categoria",
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#titulo-categoria",
+      "menu-item#sub-categoria1",
+      "menu-item#sub-categoria2",
+      "menu-item#sub-categoria3",
+      "menu-item#sub-categoria4",
+      "menu-item#sub-categoria5",
+      "menu-item#sub-categoria6"
+    ]
+  },
+  "rich-text#titulo-categoria":{
+    "props":{
+      "blockClass":"categoriita",
+      "text":"Categoria 1"
+    }
+  },
+  "menu-item#sub-categoria1": {
+    "props": {
+      "blockClass":"sub-one",
+      "id": "menu-item-sub-categoria1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Sub-Categoria 1",
+        "text": "Sub-Categoria 1"
+      }
+    }
+  },
+  "menu-item#sub-categoria2": {
+    "props": {
+      "id": "menu-item-sub-categoria2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Sub-Categoria 2",
+        "text": "Sub-Categoria 2"
+      }
+    }
+  },
+  "menu-item#sub-categoria3": {
+    "props": {
+      "id": "menu-item-sub-categoria3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Sub-Categoria 3",
+        "text": "Sub-Categoria 3"
+      }
+    }
+  },
+  "menu-item#sub-categoria4": {
+    "props": {
+      "id": "menu-item-sub-categoria4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Sub-Categoria 4",
+        "text": "Sub-Categoria 4"
+      }
+    }
+  },
+  "menu-item#sub-categoria5": {
+    "props": {
+      "id": "menu-item-sub-categoria5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Sub-Categoria 5",
+        "text": "Sub-Categoria 5"
+      }
+    }
+  },
+  "menu-item#sub-categoria6": {
+    "props": {
+      "id": "menu-item-sub-categoria6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Sub-Categoria 6",
+        "text": "Sub-Categoria 6"
+      }
+    }
+  },
+  "menu-item#categoria2": {
+    "props": {
+      "id": "menu-item-categoria2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Categoria 2",
+        "text": "Categoria 2"
+      }
+    }
+  },
+  "menu-item#categoria3": {
+    "props": {
+      "id": "menu-item-categoria3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Categoria 3",
+        "text": "Categoria 3"
+      }
+    }
+  },
+  "menu-item#categoria4": {
+    "props": {
+      "id": "menu-item-categoria4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Categoria 4",
+        "text": "Categoria 5"
+      }
+    }
+  },
+  "menu-item#categoria5": {
+    "props": {
+      "id": "menu-item-categoria5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Categoria 5",
+        "text": "Categoria 5"
+      }
+    }
+  },
+  "menu-item#categoria6": {
+    "props": {
+      "id": "menu-item-categoria6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Categoria 6",
+        "text": "Categoria 6"
+      }
+    }
+  },
+  "menu-item#category-apparel-departamento2": {
+    "props": {
+      "blockClass":"dpto1",
+      "id": "menu-item-category-apparel-departamento2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Departamento 2",
+        "text": "DEPARTAMENTO  2"
+      }
+    }
+  },
+  "menu-item#category-apparel-departamento3": {
+    "props": {
+      "blockClass":"dpto1",
+      "id": "menu-item-category-apparel-departamento3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Departamento 3",
+        "text": "DEPARTAMENTO  3"
+      }
+    }
+  },
+  "menu-item#category-apparel-departamento4": {
+    "props": {
+      "blockClass":"dpto1",
+      "id": "menu-item-category-apparel-departamento4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Departamento 4",
+        "text": "DEPARTAMENTO  4"
+      }
+    }
+  },
+  "menu-item#category-apparel-departamento5": {
+    "props": {
+      "blockClass":"dpto1",
+      "id": "menu-item-category-apparel-departamento5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Departamento 5",
+        "text": "DEPARTAMENTO  5"
+      }
+    }
+  },
+  "menu-item#category-apparel-departamento6": {
+    "props": {
+      "blockClass":"dpto1",
+      "id": "menu-item-category-apparel-departamento6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Departamento 6",
+        "text": "DEPARTAMENTO  6"
+      }
+    }
+  },
+  "menu-item#category-dpto1": {
+    "props": {
+      "id": "menu-item-category-dpto1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": false,
+        "tagTitle": "Departamento 1",
+        "text": "DEPARTAMENTO 1"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category": {
+    "props": {
+      "blockClass": "category",
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category"
+    ]
+  },
+  "vtex.menu@2.x:menu#category": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category1",
+      "menu-item#category2",
+      "menu-item#category3",
+      "menu-item#category4",
+      "menu-item#category5",
+      "menu-item#category6"
+    ]
+  },
+  "menu-item#category1": {
+    "props": {
+      "id": "menu-item-category1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Categoria 1",
+        "text": "Categoria 1"
+      }
+    }
+  },
+  "menu-item#category2": {
+    "props": {
+      "id": "menu-item-category2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Categoria 2",
+        "text": "Categoria 2"
+      }
+    }
+  },
+  "menu-item#category3": {
+    "props": {
+      "id": "menu-item-category3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Categoria 3",
+        "text": "Categoria 3"
+      }
+    }
+  },
+  "menu-item#category4": {
+    "props": {
+      "id": "menu-item-category4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Categoria 4",
+        "text": "Categoria 4"
+      }
+    }
+  },
+  "menu-item#category5": {
+    "props": {
+      "id": "menu-item-category5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Categoria 5",
+        "text": "Categoria 5"
+      }
+    }
+  },
+  "menu-item#category6": {
+    "props": {
+      "id": "menu-item-category6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Categoria 6",
+        "text": "Categoria 6"
+      }
+    }
+  },
+  "menu-item#dpto2": {
+    "props": {
+      "id": "menu-item-custom-dpto2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Departamento 2",
+        "text": "DEPARTAMENTO 2"
+      }
+    }
+  },
+  "menu-item#novidades": {
+    "props": {
+      "blockClass":"novidades",
+      "id": "menu-item-novidades",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": true,
+        "tagTitle": "Novidades",
+        "text": "NOVIDADES"
+      }
+    }
+  },
+  "menu-item#outlet": {
+    "props": {
+      "blockClass": "outlet",
+      "id": "menu-outlet",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": true,
+        "tagTitle": "Outlet",
+        "text": "OUTLET"
+      }
+    }
+  }
+}

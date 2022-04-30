@@ -1,0 +1,99 @@
+{
+
+  //VITRINE 1
+  "flex-layout.row#titulo-vitrine-1": {
+    "props": {
+      "blockClass": ["vitrine1","grid1252"]
+    },
+    "children": [
+      "rich-text#titulo-uno"
+    ]
+  },
+  "rich-text#titulo-uno": {
+    "props": {
+      "blockClass": "uno",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "# QUEM COMPROU, COMPROU TAMBÉM"
+    }
+  },
+  "flex-layout.row#vitrine-producto-uno": {
+    "props": {
+      "blockClass": ["row-slider-uno","grid1252"]
+    },
+    "children": ["list-context.product-list#vitrine-uno"]
+  },
+  "list-context.product-list#vitrine-uno": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#vitrine-slider-uno"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+
+  "slider-layout#vitrine-slider-uno": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 1,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel",
+      "showPaginationDots": "never",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    }
+  },
+  //VITRINE 2
+  "flex-layout.row#titulo-vitrine-2": {
+    "props": {
+      "blockClass": ["vitrine2","grid1252"]
+    },
+    "children": [
+      "rich-text#titulo-dos"
+    ]
+  },
+  "rich-text#titulo-dos": {
+    "props": {
+      "blockClass": "dos",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "# QUEM VIU, VIU TAMBÉM"
+    }
+  },
+  "flex-layout.row#vitrine-producto-dos": {
+    "props": {
+      "blockClass": ["row-slider-dos","grid1252"]
+    },
+    "children": ["list-context.product-list#vitrine-dos"]
+  },
+  "list-context.product-list#vitrine-dos": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#vitrine-slider-dos"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+
+  "slider-layout#vitrine-slider-dos": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 1,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel",
+      "showPaginationDots": "never",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    }
+  }
+}

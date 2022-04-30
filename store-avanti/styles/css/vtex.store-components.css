@@ -1,0 +1,298 @@
+.notificationBarContainer {
+  background-color: #e6f1e6;
+  color: #03034e;
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.infoCardContainer--info-card-home {
+  max-width: 1920px;
+
+  margin: 0 auto;
+  background-color: #e6f1e6;
+  padding: 0px;
+}
+.logoContainer{
+  padding: 0px;
+}
+.newsletter {
+  background-color: #03054e;
+  max-width: 1528px;
+  margin: 0 auto;
+}
+
+.newsletter .container {
+  padding: 60px 10px;
+}
+
+.label {
+  color: #fff;
+  font-size: 26px;
+}
+
+.inputGroup {
+  padding-bottom: 4px;
+  display: flex;
+  color: #fff;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
+  color: #fff;
+  font-size: 16px;
+}
+
+.inputGroup :global(.vtex-button) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  margin-right: -24px;
+}
+
+.buttonContainer {
+  padding-top: 0px;
+}
+
+.imageElement--storePrint {
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.skuSelectorContainer {
+  margin: 1rem 0;
+}
+
+@media only screen and (min-width: 640px) {
+  .newsletter .container {
+    padding: 140px;
+  }
+
+  .label {
+    font-size: 40px;
+  }
+
+  .infoCardContainer--info-card-home .infoCardTextContainer {
+    width: 100%;
+  }
+
+  .infoCardContainer--info-card-home .infoCardImageContainer {
+    width: 70%;
+  }
+
+  .imageElement--storePrint {
+    margin-bottom: 0px;
+    max-height: 600px;
+  }
+}
+
+.productImagesContainer--quickview .carouselContainer {
+  justify-content: flex-start;
+}
+
+.productImagesContainer--quickview .productImageTag {
+  object-fit: cover !important;
+}
+
+.productImagesContainer--quickview .carouselGaleryThumbs {
+  display: none;
+}
+
+.productImagesContainer--quickview .carouselGaleryCursor {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.productNameContainer {
+  color: #3f3f40;
+  font-weight: bold;
+  font-size: 30px;
+}
+/*PAGINA DE PRODUCTO*/
+.productNameContainer--quickview{
+
+text-align: left;
+font-size: 16px;
+letter-spacing: 0px;
+color: #25282A;
+text-transform: uppercase;
+opacity: 1;
+}
+/*MODIFICACIONES CONTENEDOR SHIPPING*/
+.shippingContainer{
+  margin-top: 25px;
+  width: 100%;
+height: 180px;
+
+}
+.shippingContainer :global(.vtex-button__label){
+  background: black;
+  color: white;
+  height: 50px;
+}
+.shippingContainer :global(.vtex-input__label) {
+  font-size: 0;
+}
+.shippingContainer :global(.vtex-input__label)::after {
+  content: 'FRETE E PRAZO DE ENTREGA';
+  font-size: 12px;
+  letter-spacing: 1.2px;
+  color: #25282A;
+  font-weight: bold;
+}
+
+.shippingContainer :global(.vtex-address-form__postalCode-forgottenURL) {
+  text-decoration: underline;
+
+}
+.shippingContainer :global(.vtex__icon-external-link){
+  display: none;
+
+}
+.shippingTableCellDeliveryPrice {
+
+  font-weight: bold;
+  color: black;
+
+}
+
+.productDescriptionTitle{
+  color: #441AFA  ;
+  font-weight: bold;
+  letter-spacing: 1.6px;
+}
+/*fin pagina de producto*/
+
+/*MODIFICACIONES MIAS*/
+/*BARRA ARRIBA HEADER*/
+.flexRow--freterow{
+  background: black;
+  height: 40px;
+}
+/*BARRA HEADER FIM*/
+.infoCardTextContainer{
+  display: flex;
+  width: 600px;
+  height: 302px;
+  margin-right: 50px;
+
+}
+.infoCardContainer--info-card-home{
+  background: transparent;
+  width: 100%;
+  height: 706px;
+}
+.infoCardHeadline--info-card-home{
+  display: flex;
+align-items: flex-start;
+  color: #441AFA;
+  width: 550px;
+  height: 55px;
+  letter-spacing: 12px;
+  font-size: 40px;
+}
+.infoCardSubhead--info-card-home{
+  color: gray;
+  font-size: 12px;
+  width: 474px;
+  height: 119px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-right: 60px;
+}
+.infoCardCallActionContainer--info-card-home :global(.vtex-button){
+  background: transparent;
+  border-radius: 0px;
+  border: 1px solid black;
+  color:black;
+  margin-right: 400px;
+}
+.imageElement--new1{
+  display: flex;
+  width: 616px;
+  height: 569px;
+  margin: 10px;
+}
+.imageElement--new2{
+  display: flex;
+  width: 616px;
+  height: 569px;
+  margin: 10px;
+}
+.imageElement--ropa{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.imageElement--cosmetico{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.imageElement--imageavanti{
+  margin-top: 45px;
+}
+.imageElement--hijodeputa{
+  margin-right: 5px;
+}
+/*PHONE*/
+/*INFO CARD SEO*/
+.infoCardContainer--info-card-home-phone{
+  margin-top: 500px;
+  height: 350px;
+}
+.infoCardTextContainer{
+  margin-left: 40px;
+}
+.infoCardSubhead{
+  font-size: 12px;
+
+}
+.infoCardHeadline{
+  color: #441AFA;
+}
+.infoCardCallActionContainer--info-card-home-phone :global(.vtex-button){
+  background: transparent;
+  border-radius: 0px;
+  border: 1px solid black;
+  color:black;
+
+}
+
+.imageElement--new1-phone{
+  margin-bottom: 20px;
+}
+
+.imageElement--image-mobile{
+  margin-right: 5px;
+}
+/*FOOTER PHONE*/
+/*HEADER*/
+.autoCompleteOuterContainer--barra-phone{
+  width: 350px;
+  margin-left: 40px;
+}
+.imageElement--imageavanti-phone{
+  margin-top: 30px;
+}
+.imageElement--hijodeputa3{
+  margin-top: 12px;
+}
+/*FLOAT MENU*/
+  .productNameContainer--float{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+  }
+.productBrand--float{
+  font-size: 12px;
+}
+
+
+

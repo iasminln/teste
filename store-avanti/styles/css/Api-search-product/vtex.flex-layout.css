@@ -1,0 +1,45 @@
+@media (min-width: 992px){
+.flexRow--espaciadora2{
+  display: flex;
+  width: 100%;
+  background: black;
+
+}
+.flexCol--avanti-img{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.flexCol--avanti-img-dos{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.flexCol--avanti-img-tres{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.flexCol--avanti-img-cuatro{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+}
+
+@media (max-width: 991.98px){
+  .flexRow--espaciadora2-mobile{
+    display: flex;
+    width: 100%;
+    background: black;
+
+  }
+  .flexCol--avanti-img-mobile{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+
+
+}

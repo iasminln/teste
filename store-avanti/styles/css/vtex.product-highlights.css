@@ -1,0 +1,29 @@
+.productHighlightWrapper--collection {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  width: 200px;
+}
+
+
+.productHighlightText--novidade{
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #441afa;
+  border-radius: 0px;
+  padding: 5px 10px;
+  font-size: 10px;
+
+}
+
+.productHighlightText--inovacao{
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #25282A;
+  border-radius: 0px;
+  padding: 5px 10px;
+  font-size: 10px;
+
+}

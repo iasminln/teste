@@ -1,0 +1,424 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "newsletter-form",
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-desktop",
+      "flex-layout.row#footer-3-desktop"
+
+    ]
+  },
+  "newsletter-form":{
+    "props":{
+      "blockClass":"new"
+    },
+    "children":[
+      "flex-layout.row#newsletter"
+    ]
+  },
+  "flex-layout.row#newsletter": {
+    "props":{
+      "blockClass":"flexnew"
+    },
+    "children": [
+      "image#logo-avanti",
+      "rich-text#news",
+      "newsletter-input-email",
+      "newsletter-input-name",
+      "newsletter-submit"
+    ]
+
+  },
+  "image#logo-avanti":{
+    "props":{
+      "blockClass":"imageavanti",
+      "src":"assets/img/logo-avanti.png",
+      "maxWidth":"118px",
+      "maxHeight":"85px"
+    }
+  },
+  "rich-text#news":{
+    "props":{
+      "blockClass":"text",
+      "text":"# NEWSLETTER \n Receba promoções e descontos especiais em primeira mão."
+    }
+  },
+
+  "newsletter-input-email":{
+    "props":{
+      "blockClass":"email"
+    }
+  },
+  "newsletter-input-name":{
+    "props":{
+      "blockClass":"name"
+    }
+  },
+  "newsletter-submit":{
+    "props":{
+      "blockClass":"submit",
+      "submitButtonLabel":"CADASTRE-SE"
+    }
+  },
+
+
+
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#Products",
+      "vtex.menu@2.x:menu#footer-clothing",
+      "vtex.menu@2.x:menu#footer-decoration",
+      "vtex.menu@2.x:menu#footer-bags",
+      "footer-spacer",
+      "social-networks"
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/vtexonline/"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/vtextruecloud/"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/vtexonline"
+        },
+        {
+          "name": "Youtube",
+          "url": "https://www.youtube.com/user/VTEXTV"
+        }
+      ]
+    }
+  },
+
+  "flex-layout.row#footer-2-desktop": {
+
+    "props": {
+      "blockClass": "payment-methods"
+    },
+    "children":[
+     "flex-layout.col#metodo",
+      "flex-layout.col#vtex"
+    ]
+  },
+  "flex-layout.col#metodo":{
+    "props":{
+      "blockClass":"metodo"
+    },
+    "children":[
+      "image#master",
+      "image#visa",
+      "image#american",
+      "image#symbol",
+      "image#elo",
+      "image#boleto"
+    ]
+  },
+  "image#master":{
+    "props":{
+      "blockClass":"hijodeputa",
+      "src":"assets/img/tarjetas/mastercard.png"
+
+    }
+  },
+  "image#visa":{
+    "props":{
+      "blockClass":"hijodeputa",
+      "src":"assets/img/tarjetas/symbols.png"
+    }
+  },
+  "image#american":{
+    "props":{
+      "blockClass":"hijodeputa",
+      "src":"assets/img/tarjetas/american.png"
+    }
+  },
+  "image#symbol":{
+    "props":{
+      "blockClass":"hijodeputa",
+      "src":"assets/img/tarjetas/symbol.png"
+    }
+  },
+  "image#elo":{
+    "props":{
+      "blockClass":"hijodeputa",
+      "src":"assets/img/tarjetas/elo.png"
+    }
+  },
+  "image#boleto":{
+    "props":{
+      "blockClass":"hijodeputa",
+      "src":"assets/img/tarjetas/boleto_preto.png"
+    }
+  },
+  "flex-layout.col#vtex":{
+    "props":{
+
+      "blockClass":"vtex"
+    },
+    "children":[
+      "image#vtex-logo",
+      "image#encrypt"
+    ]
+  },
+  "image#vtex-logo":{
+    "props":{
+      "blockClass":"hijodeputa",
+      "src":"assets/img/tarjetas/vtex.png"
+    }
+  },
+  "image#encrypt":{
+    "props":{
+      "blockClass":"hijodeputa",
+      "src":"assets/img/tarjetas/encrypt.png"
+    }
+  },
+
+  "flex-layout.row#footer-3-desktop": {
+    "children": ["flex-layout.col#credito","flex-layout.col#img-credito"],
+    "props": {
+      "blockClass": "credits"
+    }
+  },
+  "flex-layout.col#credito":{
+    "props":{
+      "blockClass":"credito"
+    },
+    "children":[
+      "rich-text#footer"
+    ]
+  },
+  "rich-text#footer": {
+    "props": {
+      "text": "© Copyright 2021 Avanti LTDA - Todos direitos reservados. Rodovia Jose Carlos Daux, 500 Techno Towers - Torre 2 - sala 209 - João Paulo, Florianópolis - SC, 88030-000",
+      "blockClass": "footer"
+    }
+  },
+  "flex-layout.col#img-credito":{
+    "props":{
+      "blockClass":"img-credito"
+    },
+    "children":[
+      "image#vtex2",
+      "image#avanti2"
+    ]
+  },
+  "image#vtex2":{
+    "props":{
+      "blockClass":"hijodeputa",
+      "src":"assets/img/vtex2.png"
+    }
+  },
+  "image#avanti2":{
+    "props":{
+      "blockClass":"hijodeputa",
+      "src":"assets/img/avanti2.png"
+    }
+  },
+
+  "footer-layout.mobile": {
+    "children": [
+      "newsletter-form#phone",
+      "flex-layout.row#1-footer-mobile",
+      "flex-layout.row#2-footer-mobile"
+    ]
+  },
+  "newsletter-form#phone":{
+    "props":{
+      "blockClass":"new-phone"
+    },
+    "children":[
+      "image#logo-avanti-phone",
+      "rich-text#news-phone",
+      "newsletter-input-email",
+      "newsletter-input-name",
+      "newsletter-submit"
+
+    ]
+  },
+  "image#logo-avanti-phone":{
+    "props":{
+      "blockClass":"imageavanti-phone",
+      "src":"assets/img/logo-avanti.png",
+      "maxWidth":"118px",
+      "maxHeight":"85px"
+    }
+  },
+  "rich-text#news-phone":{
+    "props":{
+      "blockClass":"text-phone",
+      "text":"# NEWSLETTER \n Receba promoções e descontos especiais em primeira mão."
+    }
+  },
+
+  "flex-layout.row#2-footer-mobile": {
+    "children": ["flex-layout.col#footer-1-mobile"],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
+  "flex-layout.col#footer-1-mobile": {
+    "children": [
+      "accepted-payment-methods",
+      "social-networks",
+      "flex-layout.row#image-phone",
+      "flex-layout.row#footer-phone"
+    ],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "rowGap": 4
+    }
+  },
+  "flex-layout.row#image-phone":{
+    "props": {
+      "blockClass": "payment-phone"
+    },
+    "children":[
+     "flex-layout.col#metodo-phone",
+      "flex-layout.col#vtex-phone"
+    ]
+  },
+  "flex-layout.col#metodo-phone":{
+    "props":{
+      "blockClass":"metodo-phone"
+    },
+    "children":[
+      "image#master1",
+      "image#visa1",
+      "image#american1",
+      "image#symbol1",
+      "image#elo1",
+      "image#boleto1"
+    ]
+  },
+  "image#master1":{
+    "props":{
+      "blockClass":"hijodeputa",
+      "src":"assets/img/tarjetas/mastercard.png"
+
+    }
+  },
+  "image#visa1":{
+    "props":{
+      "blockClass":"hijodeputa",
+      "src":"assets/img/tarjetas/symbols.png"
+    }
+  },
+  "image#american1":{
+    "props":{
+      "blockClass":"hijodeputa",
+      "src":"assets/img/tarjetas/american.png"
+    }
+  },
+  "image#symbol1":{
+    "props":{
+      "blockClass":"hijodeputa",
+      "src":"assets/img/tarjetas/symbol.png"
+    }
+  },
+  "image#elo1":{
+    "props":{
+      "blockClass":"hijodeputa",
+      "src":"assets/img/tarjetas/elo.png"
+    }
+  },
+  "image#boleto1":{
+    "props":{
+      "blockClass":"hijodeputa",
+      "src":"assets/img/tarjetas/boleto_preto.png"
+    }
+  },
+  "flex-layout.col#vtex-phone":{
+    "props":{
+
+      "blockClass":"vtex-phone"
+    },
+    "children":[
+      "image#vtex-logo1",
+      "image#encrypt1"
+    ]
+  },
+  "image#vtex-logo1":{
+    "props":{
+      "blockClass":"hijodeputa",
+      "src":"assets/img/tarjetas/vtex.png"
+    }
+  },
+  "image#encrypt1":{
+    "props":{
+      "blockClass":"hijodeputa",
+      "src":"assets/img/tarjetas/encrypt.png"
+    }
+  },
+
+  "flex-layout.row#1-footer-mobile": {
+    "props": {
+      "blockClass":"footer-phone",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    },
+    "children": ["vtex.menu@2.x:menu#footer-mobile"]
+  },
+
+  "flex-layout.row#footer-phone": {
+    "children": ["flex-layout.col#credito-phone","flex-layout.col#img-credito-phone"],
+    "props": {
+      "blockClass": "credits"
+    }
+  },
+  "flex-layout.col#credito-phone":{
+    "props":{
+      "blockClass":"credito"
+    },
+    "children":[
+      "rich-text#footer-phone"
+    ]
+  },
+  "rich-text#footer-phone": {
+    "props": {
+      "text": "© Copyright 2021 Avanti LTDA - Todos direitos reservados. Rodovia Jose Carlos Daux, 500 Techno Towers - Torre 2 - sala 209 - João Paulo, Florianópolis - SC, 88030-000",
+      "blockClass": "footer-phone"
+    }
+  },
+  "flex-layout.col#img-credito-phone":{
+    "props":{
+      "blockClass":"img-credito-phone"
+    },
+    "children":[
+      "image#vtex2-phone",
+      "image#avanti2-phone"
+    ]
+  },
+  "image#vtex2-phone":{
+    "props":{
+      "blockClass":"hijodeputa",
+      "src":"assets/img/vtex2.png"
+    }
+  },
+  "image#avanti2-phone":{
+    "props":{
+      "blockClass":"hijodeputa3",
+      "src":"assets/img/avanti2.png"
+    }
+  }
+
+
+}

@@ -1,0 +1,91 @@
+{
+
+
+
+
+  "menu-item#conta": {
+    "props": {
+      "blockClass":"drawer-conta",
+      "id": "menu-item-conta",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": true,
+        "tagTitle": "conta",
+        "text": "MINHA CONTA"
+      }
+    }
+  },
+  "menu-item#atendimento": {
+    "props": {
+      "blockClass":"drawer-atendimento",
+      "id": "menu-item-conta",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": true,
+        "tagTitle": "atendimento",
+        "text": "ATENDIMENTO AO CLIENTE"
+      }
+    }
+  },
+  "menu-item#loja": {
+    "props": {
+      "blockClass":"drawer-dos",
+      "id": "menu-item-loja",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": true,
+        "tagTitle": "loja",
+        "text": "LOJAS PARCEIRAS"
+      }
+    }
+  },
+  "menu-item#representante": {
+    "props": {
+      "blockClass":"drawer-dos",
+      "id": "menu-item-loja",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": true,
+        "tagTitle": "representante",
+        "text": "SEJA UM REPRESENTANTE"
+      }
+    }
+  },
+  "menu-item#revendedor": {
+    "props": {
+      "blockClass":"drawer-dos",
+      "id": "menu-item-loja",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": true,
+        "tagTitle": "revendedor",
+        "text": "SEJA UM REVENDEDOR"
+      }
+    }
+  }
+
+
+
+
+
+}

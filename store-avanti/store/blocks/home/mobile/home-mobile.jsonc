@@ -1,0 +1,301 @@
+{
+  "responsive-layout.phone":{
+    "children":[
+      "product-modal#mobile",
+      "list-context.image-list#demo",
+      "flex-layout.row#deals-mobile",
+      "rich-text#phone-departamentos",
+      "flex-layout.row#slider",
+      "flex-layout.row#imagen-central-phone",
+      "flex-layout.row#new-sale-phone",
+      "flex-layout.row#title-banner-phone",
+      "slider-layout#slider-produtos",
+      "flex-layout.row#vitrine1",
+      "flex-layout.row#vitrine-slider1",
+      "flex-layout.row#banner-sale-camion",
+      "flex-layout.row#vitrine2",
+      "flex-layout.row#vitrine-slider2"
+
+
+
+
+
+    ]
+  },
+  "flex-layout.row#deals-mobile": {
+    "children": ["slider-layout#row-frete-gratis"],
+    "props": {
+      "blockClass": "deals-mobile"
+    }
+  },
+
+  "slider-layout#row-frete-gratis": {
+    "props": {
+
+      "itemsPerPage": {
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf",
+      "showPaginationDots": "never",
+      "showNavigationArrows": "never",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "flex-layout.col#slider-frete-gratis1",
+      "flex-layout.col#slider-frete-gratis2",
+      "flex-layout.col#slider-frete-gratis3",
+      "flex-layout.col#slider-frete-gratis4"
+    ]
+  },
+
+  "flex-layout.col#slider-frete-gratis1": {
+    "props": {
+      "blockClass": "col-deals"
+    },
+    "children": ["image#phone-deal1", "rich-text#phone-deal1"]
+  },
+  "image#phone-deal1": {
+    "props": {
+      "blockClass":"image-mobile",
+      "src": "assets/img/box.png",
+      "maxHeight": "20px"
+    }
+  },
+  "rich-text#phone-deal1": {
+    "props": {
+      "text": "**FRETE GRATIS**  ACIMA DE R$200",
+      "blockClass": "phone-deals"
+    }
+  },
+
+  "flex-layout.col#slider-frete-gratis2": {
+    "props": {
+      "blockClass": "col-deals"
+    },
+    "children": ["image#phone-deal2", "rich-text#phone-deal2"]
+  },
+  "image#phone-deal2": {
+    "props": {
+      "blockClass":"image-mobile",
+      "src": "assets/img/exchange.png",
+      "maxHeight": "20px"
+    }
+  },
+  "rich-text#phone-deal2": {
+    "props": {
+      "text": "**PRIMEIRA TROCA**  GRATIS",
+      "blockClass": "phone-deals"
+    }
+  },
+
+  "flex-layout.col#slider-frete-gratis3": {
+    "props": {
+      "blockClass": "col-deals"
+    },
+    "children": ["image#phone-deal3", "rich-text#phone-deal3"]
+  },
+  "image#phone-deal3": {
+    "props": {
+      "blockClass":"image-mobile",
+      "src": "assets/img/credit-card.png",
+      "maxHeight": "20px"
+    }
+  },
+  "rich-text#phone-deal3": {
+    "props": {
+      "text": "**ATE 12X SEM JUROS**  NOS CARTÕES",
+      "blockClass": "phone-deals"
+    }
+  },
+
+  "flex-layout.col#slider-frete-gratis4": {
+    "props": {
+      "blockClass": "col-deals"
+    },
+    "children": ["image#phone-deal4", "rich-text#phone-deal4"]
+  },
+  "image#phone-deal4": {
+    "props": {
+      "blockClass":"image-mobile",
+      "src": "assets/img/shopping.png",
+      "maxHeight": "20px"
+    }
+  },
+  "rich-text#phone-deal4": {
+    "props": {
+      "text": "**ENCONTRE**  UM PARCEIRO VOLLO",
+      "blockClass": "phone-deals"
+    }
+  },
+/*DEPARTAMENTOS*/
+"rich-text#phone-departamentos": {
+  "title": "Titulo Departamentos Mobile",
+  "props": {
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "# TODOS OS DEPARTAMENTOS",
+    "blockClass": "shelfTitle",
+    "font": "OpenSans-Bold"
+  }
+},
+
+
+/*SEO*/
+"flex-layout.row#imagen-central-phone": {
+  "props": {
+    "blockClass": "central-phone"
+  },
+  "children": [
+    "flex-layout.col#texto-seophone"
+  ]
+},
+
+"flex-layout.col#texto-seophone":{
+  "title": "Banner Central Texto Mobile",
+  "props": {
+    "blockClass": "contenido-phone"
+  },
+  "children": [
+    "info-card#seo-phone"
+
+
+  ]
+},
+"info-card#seo-phone": {
+  "title": "Banner Central Texto Mobile",
+  "props": {
+    "id": "info-card-home",
+    "isFullModeStyle": true,
+    "textPosition": "center",
+    "imageUrl": "",
+    "headline": " LOREM IPSUM",
+    "subhead": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea.",
+    "callToActionText": "Lorem ipsum",
+    "callToActionUrl": "/sale/d",
+    "blockClass": "info-card-home-phone",
+    "textAlignment": "center"
+  }
+},
+/*IMAGENES SALE*/
+"flex-layout.row#new-sale-phone":{
+  "props":{
+    "blockClass":"new-sale-phone"
+  },
+  "children":[
+    "image#new1-phone",
+    "image#new2-phone"
+  ]
+},
+"image#new1-phone":{
+  "title": "Imagem New Sale Mobile",
+  "props":{
+    "src": "assets/img/newin.png",
+    "maxHeight": "450px",
+    "maxWidth": "320px",
+    "blockClass": "new1-phone"
+  }
+},
+"image#new2-phone":{
+  "title": "Imagem New Sale Mobile",
+  "props":{
+    "src": "assets/img/sale.png",
+    "maxHeight": "450px",
+    "maxWidth": "320px",
+    "blockClass": "new2-phone"
+  }
+},
+/*SLIDER PRODUTOS*/
+"slider-layout#slider-produtos": {
+  "title": "Slider Vitrine Mobile",
+  "props": {
+    "itemsPerPage": {
+
+      "phone": 1
+    },
+    "infinite": true,
+    "showNavigationArrows": "always",
+    "showPaginationDots":"never",
+    "blockClass": "slider-produtos",
+    "autoplay": {
+      "timeout": 5000,
+      "stopOnHover": false
+    }
+  },
+  "children": ["image#produto1", "image#produto2", "image#produto3", "image#produto4", "image#produto5", "image#produto6" ]
+},
+"image#produto1":{
+  "title": "Electronicos Mobile",
+  "props":{
+    "src": "assets/img/reloj.png"
+  }
+},
+"image#produto2":{
+  "title": "Roupas Mobile",
+  "props":{
+    "src": "assets/img/remera.png"
+  }
+},
+"image#produto3":{
+  "title": "Perfume Mobile",
+  "props":{
+    "src": "assets/img/perfume2.png"
+  }
+},
+"image#produto4":{
+  "title": "Cosmeticos Mobile",
+  "props":{
+    "src": "assets/img/perfume1.png"
+  }
+},
+"image#produto5":{
+  "title": "Calçado Mobile",
+  "props":{
+    "src": "assets/img/zapatilla.png"
+  }
+},
+"image#produto6":{
+  "title": "Accesorios Mobile",
+  "props":{
+    "src": "assets/img/anteojo.png"
+  }
+},
+/*BANNER*/
+"flex-layout.row#title-banner-phone":{
+  "props":{
+
+  },
+  "children":[
+    "rich-text#title-banner-phone"
+  ]
+},
+"rich-text#title-banner-phone":{
+  "title": "Titulo Banner Mobile",
+  "props":{
+    "blockClass":"banner",
+    "textAlignment": "CENTER",
+  "textPosition": "CENTER",
+  "text":"# TITULO DE BANNERS"
+  }
+},
+
+/*CAMIONSITO*/
+"flex-layout.row#banner-sale-camion":{
+  "props":{
+    "blockClass":"banner-sale-camion"
+  },
+  "children":[
+    "image#banner-sale-phone"
+  ]
+},
+"image#banner-sale-phone":{
+  "title": "Banner Frete Mobile",
+  "props":{
+    "src":"assets/img/banner-sale-phone.png"
+  }
+}
+}

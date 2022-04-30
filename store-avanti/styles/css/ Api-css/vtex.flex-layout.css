@@ -1,0 +1,76 @@
+@media (min-width: 992px){
+.flexRow--div-central{
+  width: 100%;
+  min-height: 400px;
+  max-height: 3000px;
+
+
+}
+.flexCold--api{
+  margin: 0px;
+  padding: 0px;
+}
+.flexColChild--api{
+  margin: 0px;
+  padding: 0px;
+  width: 50%;
+
+}
+.flexColChild--api-dos{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+
+}
+.flexRow--espaciadora{
+  width: 100%;
+  height: 750px;
+  background-image: url('assets/img/fondo.png');
+}
+/*SEARCH API MODULE*/
+.flexRow--search-api{
+  width: 100%;
+  min-height: 400px;
+  max-height: 3000px;
+
+}
+}
+@media (max-width: 991.98px) {
+  .flexRow--div-central{
+    width: 100%;
+    min-height: 400px;
+    max-height: 3000px;
+
+
+  }
+  .flexCold--api{
+    margin: 0px;
+    padding: 0px;
+  }
+  .flexColChild--api{
+    margin: 0px;
+    padding: 0px;
+    width: 50%;
+
+  }
+  .flexColChild--api-dos{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+
+  }
+  .flexRow--espaciadora-mobile{
+    width: 100%;
+    height: 450px;
+    background-image: url('assets/img/fondo.png');
+    background-position: -1355px -350px;
+  }
+  /*SEARCH API MODULE*/
+  .flexRow--search-api{
+    width: 100%;
+    min-height: 400px;
+    max-height: 3000px;
+
+  }
+
+}

@@ -1,0 +1,49 @@
+{
+  "flex-layout.row#title-not": {
+    "props": {
+      "blockClass": "title-not"
+    },
+    "children": [
+      "rich-text#titulo-no"
+    ]
+  },
+  "rich-text#titulo-no": {
+    "props": {
+      "blockClass": "dos",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "# VITRINE 1"
+    }
+  },
+  "flex-layout.row#shelf-not-found": {
+    "props": {
+      "blockClass": ["not-found"]
+    },
+    "children": ["list-context.product-list#shelf-not"]
+  },
+  "list-context.product-list#shelf-not": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#shelf-not"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+
+  "slider-layout#shelf-not": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 1,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel",
+      "showPaginationDots": "never",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    }
+  }
+}

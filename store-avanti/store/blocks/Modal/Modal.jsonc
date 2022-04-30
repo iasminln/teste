@@ -1,0 +1,23 @@
+{
+  "product-modal#desktop":{
+    "title":"Modal Desktop",
+    "props":{
+      "src":"https://avantivtexio.vteximg.com.br/arquivos/banner-desktop-ic3.png"
+
+    },
+    "children":[
+      "flex-layout.row#formulario"
+    ]
+  },
+  "product-modal#mobile":{
+    "title":"Modal Mobile",
+    "props":{
+      "blockClass":"modal-mobile",
+      "src":"https://avantivtexio.vteximg.com.br/arquivos/agora-foi-banner-mobile-ic3.png"
+
+    },
+    "children":[
+      "flex-layout.row#formulario"
+    ]
+  }
+}
